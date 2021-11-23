@@ -1,0 +1,29 @@
+start openocd:
+
+openocd -f interface/cmsis-dap.cfg -c "cmsis_dap_vid_pid 0x15ba 0x0044" -c "transport select swd" -c "adapter speed 1000" -f "target/stm32wlx.cfg"
+
+
+Menu > Run > Run Configuration > Debugger > GDB Connection Settings > TICK[ Connect to remote GDB server Port number ] localhost:3333
+
+Be sure Misc [Enable live expressions] is UNTICKED !!!
+
+
+usart debug port is /dev/ttyACMx (/dev/ttyACM0)
+
+enjoy
+
+
+
+dmesg:
+
+[12765.806085] usb 3-1: New USB device found, idVendor=15ba, idProduct=0044, bcdDevice= 1.31
+[12765.806089] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[12765.806093] usb 3-1: Product: STM32WL CMSIS-DAP
+[12765.806095] usb 3-1: Manufacturer: Olimex Ltd.
+[12765.806098] usb 3-1: SerialNumber: 380054003237383832304713
+[12765.830689] hid-generic 0003:15BA:0044.0006: hiddev0,hidraw0: USB HID v1.11 Device [Olimex Ltd. STM32WL CMSIS-DAP] on usb-0000:09:00.0-1/input0
+[12765.833134] cdc_acm 3-1:1.1: ttyACM0: USB ACM device
+
+
+lsusb:
+Bus 003 Device 003: ID 15ba:0044 Olimex Ltd. STM32WL CMSIS-DAP

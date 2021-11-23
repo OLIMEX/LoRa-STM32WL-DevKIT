@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name OLIMEX_Other-FP)(type KiCad)(uri /home/chris/Olimex_OTHER/KiCAD_Foots_mine/OLIMEX_Other-FP.pretty)(options "")(descr ""))
+  (lib (name OLIMEX_RLC-FP)(type KiCad)(uri /home/chris/Olimex_OTHER/KiCAD_Foots_mine/OLIMEX_RLC-FP.pretty)(options "")(descr ""))
+)
