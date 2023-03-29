@@ -1,0 +1,3 @@
+(sym_lib_table
+ (lib (name LoRa-STM32WL-DevKit_RevD1)(type Legacy)(uri ${KIPRJMOD}/LoRa-STM32WL-DevKit_RevD1.lib)(options "")(descr ""))
+)
