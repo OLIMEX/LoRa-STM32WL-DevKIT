@@ -11,7 +11,7 @@ Overview: major changes
 
 1. Changed temperature and humidty sensor to AHT20 (from BME280). This requires software changes.
 
-2. FET2 changed to P-MOS and added processpr control from PB12 pin. FET2 controlls UEXT and AHT20 power supply. To allow the powering set PB12 to low.
+2. FET2 changed to P-MOS and added processor control from PB12 pin. FET2 controlls UEXT and AHT20 power supply. To allow the powering set PB12 to low.
 
 3. Adjusted several component labels and improved the schematic layout.
 
