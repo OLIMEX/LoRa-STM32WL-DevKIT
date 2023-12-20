@@ -26,6 +26,7 @@
 #include <stdio.h>
 #include "LmHandler.h"
 #include "BMP280/bmp280.h"
+#include "AHT20/aht20.h"
 #include "iis2mdc/iis2mdc_reg.h"
 #include "mw_log_conf.h"  /* needed for MW_LOG */
 /* USER CODE END Includes */
@@ -60,6 +61,7 @@ SPI_HandleTypeDef hspi1;
 SUBGHZ_HandleTypeDef hsubghz;
 
 /* USER CODE BEGIN PV */
+//#define	BMP280
 BMP280_HandleTypedef bmp280;
 
 float pressure, temperature, humidity;
@@ -215,7 +217,7 @@ int main(void)
   MX_ADC_Init();
   /* USER CODE BEGIN 2 */
 
-
+#if BMP280
 	bmp280_init_default_params(&bmp280.params);
 	bmp280.addr = BMP280_I2C_ADDRESS_1;
 	bmp280.i2c = &hi2c1;
@@ -227,7 +229,11 @@ int main(void)
 	}
 	bool bme280p = bmp280.id == BME280_CHIP_ID;
 	printf("BMP280: found %s\r\n", bme280p ? "BME280" : "BMP280");
-
+#else
+	HAL_Delay(200);
+	printf("========= AHT20 =========\n\r");
+	AHT20_Begin();
+#endif
 
 
  // Mag_begin();
@@ -243,7 +249,7 @@ printf("MAG IIS2MDC OK\r\n");
 
 }
 //The link between hadc1 and hdma_adc1 was completed in stm32f1xx_hal_msp.c:
-HAL_ADC_Start_DMA(&hadc, adcBuf, ADC_BUFLEN); //Link DMA to ADC1
+HAL_ADC_Start_DMA(&hadc, (unsigned long int*)adcBuf, ADC_BUFLEN); //Link DMA to ADC1
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -765,6 +771,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LED_GPIO_Port, &GPIO_InitStruct);
 
+  /*Configure GPIO pin : PB12 UEXT and AHT20 PWR */
+  GPIO_InitStruct.Pin = GPIO_PIN_12;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_WritePin (GPIOB, GPIO_PIN_12, 0);	// set the pin to low to enable the power on the UEXT and AHT20
+
 }
 
 /* USER CODE BEGIN 4 */
@@ -791,7 +805,7 @@ static int counter = 0;
 counter++;
 if (counter == 9550){
 	HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin,GPIO_PIN_SET);
-	HAL_ADC_Start_DMA(&hadc, adcBuf, ADC_BUFLEN);
+	HAL_ADC_Start_DMA(&hadc, (unsigned long int*) adcBuf, ADC_BUFLEN);
 	HAL_ADC_Start(&hadc);
 	HAL_ADC_PollForConversion(&hadc, 10);
 	HAL_ADC_Stop(&hadc);
@@ -808,17 +822,22 @@ if (counter > 10000){
 	//float zz = (float)magnetometer[2];
 //	float vbat = 0;
 //	int16_t env = 0;
-	while (!bmp280_read_float(&bmp280, &temperature, &pressure, &humidity)) {
+#if	defined BMP280
+	while (!bmp280_read_float(&bmp280, &temperature, &pressure, &humidity))
+	{
 		printf("Temperature/pressure reading failed\r\n");
 		//HAL_UART_Transmit(&huart1, Data, size, 1000);
 		HAL_Delay(2000);
 	}
+#else
+	AHT20_ReadData(&humidity,&temperature);
+#endif
 	int env = adcBuf[0] - 1250;
 		if (env < 0) env = 0;
 		env = env * 100;
 		env = env / 2850;
 		pressure = pressure / 100;
-		printf("Pressure: %.0fhPa, Temperature: %.1f°C, Humidity: %.0f%%\r\n",
+		printf("AHT20 data: Pressure: %.0fhPa, Temperature: %.1f°C, Humidity: %.0f%%\r\n",
 				pressure, temperature, humidity);
 		printf("X: %d, Y: %d, Z: %d, light = %d%%, vbat = %dmV\r\n",magnetometer[0],magnetometer[1],magnetometer[2],(int)env,(int)adcBuf[1]<<1);
 
@@ -856,7 +875,7 @@ if (counter > 10000){
 	  }
 	  else if (nextTxIn > 0)
 	  {
-	    printf("Next Tx in  : ~%l second(s)\r\n", (nextTxIn / 1000));
+	    printf("Next Tx in  : ~%lu second(s)\r\n", (nextTxIn / 1000));
 	  }
 	  else
 	  {
