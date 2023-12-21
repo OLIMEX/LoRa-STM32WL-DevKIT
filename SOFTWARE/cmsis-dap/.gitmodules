@@ -2,3 +2,4 @@
 	path = libopencm3
 	url = https://github.com/libopencm3/libopencm3.git
 	branch = "master"
+	ignore = dirty
