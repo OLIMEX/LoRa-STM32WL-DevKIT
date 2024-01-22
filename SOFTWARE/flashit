@@ -1,1 +1,1 @@
-openocd -f interface/cmsis-dap.cfg -c "cmsis_dap_vid_pid 0x15ba 0x0044" -c "transport select swd" -c "adapter speed 4000" -f "target/stm32wlx.cfg" -c "program BB-STM32WLE-WAN.elf"
+openocd -f interface/cmsis-dap.cfg -c "cmsis_dap_vid_pid 0x15ba 0x0044" -c "transport select swd" -c "adapter speed 4000" -f "target/stm32wlx.cfg" -c "program BB-STM32WLE-WAN.elf verify reset exit"
