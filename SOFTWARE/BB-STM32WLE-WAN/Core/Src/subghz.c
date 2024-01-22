@@ -24,8 +24,6 @@
 
 /* USER CODE END 0 */
 
-SUBGHZ_HandleTypeDef hsubghz;
-
 /* SUBGHZ init function */
 void MX_SUBGHZ_Init(void)
 {
