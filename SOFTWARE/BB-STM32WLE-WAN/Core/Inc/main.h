@@ -80,6 +80,7 @@ void Error_Handler(void);
 /* USER CODE BEGIN Private defines */
 #define RTC_N_PREDIV_S 10
 #define RTC_PREDIV_S ((1<<RTC_N_PREDIV_S)-1)
+#define USE_BSP_DRIVER
 /**
   * sequencer definitions
   */
