@@ -1,0 +1,39 @@
+{
+  "build": {
+	  "cpu": "cortex-m4",
+	  "product_line": "STM32WLE5xx",
+	  "variant": "STM32WLxx/WL54CCU_WL55CCU_WLE4C(8-B-C)U_WLE5C(8-B-C)U",
+	  "arduino": {
+      "variant_h": "variant_generic.h"
+    },
+    "extra_flags": "-DSTM32WLxx -DSTM32WLE5xx -DARDUINO_GENERIC_WLE5CCUX",
+    "f_cpu": "48000000L",
+    "hwids": [
+      [
+        "0x15ba",
+        "0x0044"
+      ]
+    ],
+ 	  "mcu": "stm32wle5ccu6"
+  },
+  "debug": {
+    "openocd_target": "stm32wlx"
+  },
+  "frameworks": [
+		"arduino"
+  ],
+  "platforms": ["ststm32"],
+  "name": "Olimex BB-STM32WL",
+  "upload": {
+	"protocol": "cmsis-dap",
+	"protocols": [
+	    "cmsis-dap"
+	],
+	"maximum_ram_size": 65536,
+	"maximum_size": 262144
+  },
+  "url": "https://www.olimex.com/Products/IoT/LoRa/BB-STM32WL/",
+  "vendor": "Olimex"
+}
+
+
