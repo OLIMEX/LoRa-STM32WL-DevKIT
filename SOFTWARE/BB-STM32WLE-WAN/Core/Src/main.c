@@ -20,6 +20,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "app_lorawan.h"
+#include "subghz.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -58,8 +59,6 @@ RTC_HandleTypeDef hrtc;
 
 SPI_HandleTypeDef hspi1;
 
-SUBGHZ_HandleTypeDef hsubghz;
-
 /* USER CODE BEGIN PV */
 //#define	BMP280
 BMP280_HandleTypedef bmp280;
@@ -84,7 +83,6 @@ static void MX_I2C1_Init(void);
 static void MX_LPUART1_UART_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_SPI1_Init(void);
-static void MX_SUBGHZ_Init(void);
 static void MX_RTC_Init(void);
 static void MX_ADC_Init(void);
 /* USER CODE BEGIN PFP */
@@ -655,32 +653,6 @@ static void MX_SPI1_Init(void)
   /* USER CODE BEGIN SPI1_Init 2 */
 
   /* USER CODE END SPI1_Init 2 */
-
-}
-
-/**
-  * @brief SUBGHZ Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_SUBGHZ_Init(void)
-{
-
-  /* USER CODE BEGIN SUBGHZ_Init 0 */
-
-  /* USER CODE END SUBGHZ_Init 0 */
-
-  /* USER CODE BEGIN SUBGHZ_Init 1 */
-
-  /* USER CODE END SUBGHZ_Init 1 */
-  hsubghz.Init.BaudratePrescaler = SUBGHZSPI_BAUDRATEPRESCALER_8;
-  if (HAL_SUBGHZ_Init(&hsubghz) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN SUBGHZ_Init 2 */
-
-  /* USER CODE END SUBGHZ_Init 2 */
 
 }
 
