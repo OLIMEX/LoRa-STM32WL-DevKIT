@@ -1,0 +1,8 @@
+../LoRaWAN/Target/radio_board_if.c:73:13:RBI_LogSwitchState	32	static
+../LoRaWAN/Target/radio_board_if.c:88:9:RBI_Init	8	static
+../LoRaWAN/Target/radio_board_if.c:119:9:RBI_DeInit	8	static
+../LoRaWAN/Target/radio_board_if.c:149:9:RBI_ConfigRFSwitch	24	static
+../LoRaWAN/Target/radio_board_if.c:223:9:RBI_GetTxConfig	0	static
+../LoRaWAN/Target/radio_board_if.c:249:9:RBI_IsTCXO	0	static
+../LoRaWAN/Target/radio_board_if.c:275:9:RBI_IsDCDC	0	static
+../LoRaWAN/Target/radio_board_if.c:301:9:RBI_GetRFOMaxPowerConfig	0	static

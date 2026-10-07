@@ -1,0 +1,4 @@
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rng_ex.c:94:19:HAL_RNGEx_SetConfig	32	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rng_ex.c:193:19:HAL_RNGEx_GetConfig	24	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rng_ex.c:242:19:HAL_RNGEx_LockConfig	24	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rng_ex.c:301:19:HAL_RNGEx_RecoverSeedError	24	static

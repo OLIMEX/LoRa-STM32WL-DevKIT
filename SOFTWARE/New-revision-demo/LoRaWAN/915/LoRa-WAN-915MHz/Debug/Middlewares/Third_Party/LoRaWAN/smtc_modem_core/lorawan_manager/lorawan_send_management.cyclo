@@ -1,0 +1,6 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_send_management.c:150:6:lorawan_send_management_services_init	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_send_management.c:161:6:lorawan_send_add_task	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_send_management.c:197:6:lorawan_send_remove_task	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_send_management.c:208:13:lorawan_send_management_service_on_launch	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_send_management.c:247:13:lorawan_send_management_service_on_update	6
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_send_management.c:281:16:lorawan_send_management_service_downlink_handler	4

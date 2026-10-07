@@ -1,0 +1,8 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_hal/smtc_modem_hal.h:211:24:smtc_modem_hal_get_random_nb_in_range	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_join_management.c:143:6:lorawan_join_management_services_init	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_join_management.c:154:6:lorawan_join_add_task	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_join_management.c:166:6:lorawan_join_remove_task	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_join_management.c:177:13:lorawan_join_management_service_on_launch	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_join_management.c:205:13:lorawan_join_management_service_on_update	4
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_join_management.c:237:16:lorawan_join_management_service_downlink_handler	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lorawan_manager/lorawan_join_management.c:242:13:lorawan_join_internal_add_task	4

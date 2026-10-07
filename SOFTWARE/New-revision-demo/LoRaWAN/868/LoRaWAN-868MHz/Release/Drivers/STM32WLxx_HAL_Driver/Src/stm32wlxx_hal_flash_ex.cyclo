@@ -1,0 +1,10 @@
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:316:19:HAL_FLASHEx_OBProgram	14
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:420:6:HAL_FLASHEx_OBGetConfig	4
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:469:10:HAL_FLASHEx_FlashEmptyCheck	1
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:486:6:HAL_FLASHEx_ForceFlashEmpty	1
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:502:6:HAL_FLASHEx_SuspendOperation	1
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:520:6:HAL_FLASHEx_AllowOperation	1
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:540:10:HAL_FLASHEx_IsOperationSuspended	1
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:656:6:FLASH_PageErase	1
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:180:19:HAL_FLASHEx_Erase	8
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c:252:19:HAL_FLASHEx_Erase_IT	4

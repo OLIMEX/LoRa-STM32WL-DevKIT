@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:94:6:modem_event_init	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:103:9:get_modem_event_count	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:113:9:get_modem_event_status	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:122:6:set_modem_event_count_and_status	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:131:6:increment_modem_event_count_and_status	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:144:6:decrement_asynchronous_msgnumber	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:156:9:get_asynchronous_msgnumber	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:161:6:increment_asynchronous_msgnumber	4
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/modem_event_utilities.c:186:9:get_last_msg_event	2

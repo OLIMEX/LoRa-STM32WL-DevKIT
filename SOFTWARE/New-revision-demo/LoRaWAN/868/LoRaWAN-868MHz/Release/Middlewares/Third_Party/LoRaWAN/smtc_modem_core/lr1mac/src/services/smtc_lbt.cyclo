@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:236:6:smtc_lbt_rp_callback	4
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:122:6:smtc_lbt_launch_callback_for_rp	10
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:59:6:smtc_lbt_init	4
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:94:6:smtc_lbt_set_parameters	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:104:6:smtc_lbt_get_parameters	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:112:6:smtc_lbt_set_state	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:117:6:smtc_lbt_get_state	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:172:6:smtc_lbt_listen_channel	7
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_lbt.c:266:13:smtc_lbt_get_obj	1

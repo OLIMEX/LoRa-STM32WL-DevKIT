@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/relay_real.c:66:25:region_as_923_relay_get_default	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/relay_real.c:326:25:region_us_915_relay_get_default	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/relay_real.c:363:25:region_eu_868_relay_get_default	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/relay_real.c:437:18:smtc_relay_get_default_channel_config	4

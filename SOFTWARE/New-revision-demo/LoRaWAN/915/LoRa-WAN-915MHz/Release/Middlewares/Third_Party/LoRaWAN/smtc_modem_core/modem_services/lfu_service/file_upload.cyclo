@@ -1,0 +1,17 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:784:13:sha256_do	4
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:841:13:sha256	4
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:776:13:function_xor.constprop	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:604:13:lfu_add_task.isra	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:284:6:lfu_services_init	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:311:27:file_upload_init	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:359:27:file_upload_start	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:385:27:file_upload_reset	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:407:6:file_upload_get_status	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:419:6:file_upload_stop_service	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:617:27:file_upload_prepare_upload	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:658:9:file_upload_get_fragment	10
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:439:13:lfu_service_on_launch	6
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:695:6:file_upload_is_data_remaining	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:502:13:lfu_service_on_update	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:701:27:file_upload_process_file_done_frame	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/lfu_service/file_upload.c:539:16:lfu_service_downlink_handler	8

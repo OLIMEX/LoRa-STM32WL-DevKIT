@@ -1,0 +1,10 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_hal/smtc_modem_hal.h:211:24:smtc_modem_hal_get_random_nb_in_range	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:101:6:region_eu_868_init	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:170:6:region_eu_868_config	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:194:18:region_eu_868_get_join_next_channel	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:201:18:region_eu_868_get_next_channel	7
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:241:18:region_eu_868_build_channel_mask	10
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:293:19:region_eu_868_get_modulation_type_from_datarate	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:314:6:region_eu_868_lora_dr_to_sf_bw	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:327:6:region_eu_868_fsk_dr_to_bitrate	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/smtc_real/src/region_eu_868.c:339:6:region_eu_868_lr_fhss_dr_to_cr_bw	3

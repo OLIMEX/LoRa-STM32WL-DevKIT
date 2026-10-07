@@ -1,0 +1,8 @@
+../LoRaWAN/App/lora_app.c:414:13:SystemReset	0	static,ignoring_inline_asm
+../LoRaWAN/App/lora_app.c:426:17:GetRandomValue	32	static
+../LoRaWAN/App/lora_app.c:475:13:StoreContext	16	static
+../LoRaWAN/App/lora_app.c:443:13:RestoreContext	16	static
+../LoRaWAN/App/lora_app.c:705:13:SendTxData.constprop	32	static
+../LoRaWAN/App/lora_app.c:515:13:EventCallback	88	static
+../LoRaWAN/App/lora_app.c:322:6:LoRaWAN_Init	8	static
+../LoRaWAN/App/lora_app.c:360:6:LoRaWAN_Process	16	static,ignoring_inline_asm

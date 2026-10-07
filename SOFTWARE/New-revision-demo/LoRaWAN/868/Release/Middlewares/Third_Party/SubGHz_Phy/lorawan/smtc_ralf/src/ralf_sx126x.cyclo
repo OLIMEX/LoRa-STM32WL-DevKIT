@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/SubGHz_Phy/lorawan/smtc_ralf/src/ralf_sx126x.c:84:14:ralf_sx126x_setup_gfsk	11
+../Middlewares/Third_Party/SubGHz_Phy/lorawan/smtc_ralf/src/ralf_sx126x.c:141:14:ralf_sx126x_setup_lora	8
+../Middlewares/Third_Party/SubGHz_Phy/lorawan/smtc_ralf/src/ralf_sx126x.c:188:14:ralf_sx126x_setup_flrc	1
+../Middlewares/Third_Party/SubGHz_Phy/lorawan/smtc_ralf/src/ralf_sx126x.c:193:14:ralf_sx126x_setup_lora_cad	5

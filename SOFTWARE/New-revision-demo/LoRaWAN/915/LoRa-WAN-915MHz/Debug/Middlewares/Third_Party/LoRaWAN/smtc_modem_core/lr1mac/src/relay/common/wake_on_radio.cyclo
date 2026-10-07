@@ -1,0 +1,14 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:196:10:wor_compute_mic_wor	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:237:10:wor_compute_mic_ack	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:373:6:wor_extract_wor_info	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:414:10:wor_extract_mic_wor_uplink	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:421:9:wor_generate_ack	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:447:10:wor_convert_cad_period_in_ms	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:461:9:wor_convert_ppm	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:475:9:wor_convert_cadtorx	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:489:6:wor_decode_wor_enc_data	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:499:6:wor_derive_keys	6
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:537:13:wor_aes_wor_uplink_enc	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:564:13:wor_aes_ack_uplink_enc	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:591:13:crypto_relay_encrypt	6
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio.c:618:17:crypto_relay_compute_mic	4

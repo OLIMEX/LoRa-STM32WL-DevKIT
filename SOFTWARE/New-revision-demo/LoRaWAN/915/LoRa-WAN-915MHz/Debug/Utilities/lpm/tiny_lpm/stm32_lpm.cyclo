@@ -1,0 +1,6 @@
+../Utilities/lpm/tiny_lpm/stm32_lpm.c:121:6:UTIL_LPM_Init	1
+../Utilities/lpm/tiny_lpm/stm32_lpm.c:128:6:UTIL_LPM_DeInit	1
+../Utilities/lpm/tiny_lpm/stm32_lpm.c:132:6:UTIL_LPM_SetStopMode	3
+../Utilities/lpm/tiny_lpm/stm32_lpm.c:157:6:UTIL_LPM_SetOffMode	3
+../Utilities/lpm/tiny_lpm/stm32_lpm.c:182:17:UTIL_LPM_GetMode	3
+../Utilities/lpm/tiny_lpm/stm32_lpm.c:215:6:UTIL_LPM_EnterLowPower	3

@@ -1,0 +1,8 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:129:6:smtc_multicast_init	24	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:147:28:smtc_multicast_set_group_address	0	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:168:28:smtc_multicast_get_group_address	0	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:182:28:smtc_multicast_set_fcnt_down_range	8	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:202:28:smtc_multicast_get_fcnt_down_range	8	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:217:28:smtc_multicast_set_group_keys	40	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:251:28:smtc_multicast_get_running_status	0	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/services/smtc_multicast/smtc_multicast.c:265:28:smtc_multicast_derive_group_keys	32	static

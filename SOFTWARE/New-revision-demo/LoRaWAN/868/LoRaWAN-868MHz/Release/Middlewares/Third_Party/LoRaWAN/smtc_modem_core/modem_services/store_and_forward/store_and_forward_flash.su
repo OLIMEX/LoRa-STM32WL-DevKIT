@@ -1,0 +1,17 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_hal/smtc_modem_hal.h:211:24:smtc_modem_hal_get_random_nb_in_range	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:715:35:store_and_forward_flash_get_ctx_from_stack_id	0	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:758:16:op_sector_erase	0	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:765:16:op_program	80	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:778:16:op_read	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:786:17:crc_store_and_fwd.constprop	12	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:490:13:store_and_forward_flash_service_on_launch	112	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:731:13:store_and_forward_flash_add_task	40	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:659:16:store_and_forward_flash_service_downlink_handler	24	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:623:13:store_and_forward_flash_service_on_update	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:290:6:store_and_forward_flash_services_init	56	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:337:30:store_and_forward_flash_set_state	32	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:375:30:store_and_forward_flash_add_data	96	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:434:6:store_and_forward_flash_clear_data	24	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:444:20:store_and_forward_flash_get_fs_object	24	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:458:30:store_and_forward_flash_get_number_of_free_slot	32	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/store_and_forward/store_and_forward_flash.c:475:33:store_and_forward_flash_get_state	24	static

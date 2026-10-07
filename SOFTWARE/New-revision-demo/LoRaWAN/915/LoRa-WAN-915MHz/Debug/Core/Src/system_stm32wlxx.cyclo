@@ -1,0 +1,2 @@
+../Core/Src/system_stm32wlxx.c:223:6:SystemInit	1
+../Core/Src/system_stm32wlxx.c:278:6:SystemCoreClockUpdate	8

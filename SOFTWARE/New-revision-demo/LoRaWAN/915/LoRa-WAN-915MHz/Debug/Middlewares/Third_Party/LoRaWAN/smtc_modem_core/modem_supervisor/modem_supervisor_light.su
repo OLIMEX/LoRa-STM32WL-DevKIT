@@ -1,0 +1,16 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:158:6:modem_supervisor_init	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:188:6:modem_supervisor_init_callback	32	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:205:6:modem_supervisor_abort_tasks_in_range	32	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:230:14:modem_supervisor_remove_task	24	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:242:14:modem_supervisor_add_task	32	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:264:16:modem_supervisor_get_task	4	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:272:10:modem_supervisor_engine	56	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:338:6:modem_supervisor_get_modem_is_suspended	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:343:6:modem_supervisor_set_modem_is_suspended	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:348:17:modem_supervisor_get_modem_mute_with_priority_parameter	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:353:6:modem_supervisor_set_modem_mute_with_priority_parameter	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:366:17:supervisor_check_user_alarm	24	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:386:17:supervisor_run_lorawan_engine	24	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:407:17:supervisor_find_next_task	72	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:521:13:supervisor_idle_task_on_launch	16	static
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_supervisor/modem_supervisor_light.c:524:13:supervisor_idle_task_on_update	16	static

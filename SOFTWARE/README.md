@@ -1,1 +1,0 @@
-Update demo for sensor AHT20, as opposed to BME280 that was previously used. Demo made with STM32CubeIDE 1.14.0.

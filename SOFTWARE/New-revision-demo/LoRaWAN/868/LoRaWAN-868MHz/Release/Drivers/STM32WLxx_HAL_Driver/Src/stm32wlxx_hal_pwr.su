@@ -1,0 +1,16 @@
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:90:6:HAL_PWR_DeInit	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:149:6:HAL_PWR_EnableBkUpAccess	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:159:6:HAL_PWR_DisableBkUpAccess	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:348:19:HAL_PWR_ConfigPVD	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:389:6:HAL_PWR_EnablePVD	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:399:6:HAL_PWR_DisablePVD	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:421:6:HAL_PWR_EnableWakeUpPin	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:447:6:HAL_PWR_DisableWakeUpPin	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:480:6:HAL_PWR_EnterSLEEPMode	8	static,ignoring_inline_asm
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:563:6:HAL_PWR_EnterSTOPMode	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:598:6:HAL_PWR_EnterSTANDBYMode	0	static,ignoring_inline_asm
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:636:6:HAL_PWR_EnableSleepOnExit	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:648:6:HAL_PWR_DisableSleepOnExit	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:660:6:HAL_PWR_EnableSEVOnPend	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:672:6:HAL_PWR_DisableSEVOnPend	0	static
+../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c:682:13:HAL_PWR_PVDCallback	0	static

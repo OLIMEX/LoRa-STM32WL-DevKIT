@@ -1,0 +1,8 @@
+../Core/Src/main.c:415:6:MX_DMA_Init	16	static
+../Core/Src/main.c:478:6:Error_Handler	48	static,ignoring_inline_asm
+../Core/Src/main.c:128:6:SystemClock_Config	120	static
+../Core/Src/main.c:196:6:MX_ADC_Init	8	static
+../Core/Src/main.c:270:6:MX_RTC_Init	56	static
+../Core/Src/main.c:338:6:MX_SUBGHZ_Init	8	static
+../Core/Src/main.c:369:6:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:76:5:main	40	static

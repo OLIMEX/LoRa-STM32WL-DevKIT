@@ -1,0 +1,7 @@
+../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_pwr.h:2196:22:LL_PWR_ClearFlag_C1STOP_C1STB	1
+../Core/Src/stm32_lpm_if.c:78:6:PWR_EnterOffMode	1
+../Core/Src/stm32_lpm_if.c:85:6:PWR_ExitOffMode	1
+../Core/Src/stm32_lpm_if.c:92:6:PWR_EnterStopMode	1
+../Core/Src/stm32_lpm_if.c:110:6:PWR_ExitStopMode	1
+../Core/Src/stm32_lpm_if.c:129:6:PWR_EnterSleepMode	1
+../Core/Src/stm32_lpm_if.c:145:6:PWR_ExitSleepMode	1

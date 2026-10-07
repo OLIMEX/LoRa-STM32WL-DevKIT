@@ -1,0 +1,5 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/service_template/service_template.c:126:6:lorawan_template_services_init	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/service_template/service_template.c:142:6:lorawan_template_service_on_launch	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/service_template/service_template.c:147:6:lorawan_template_service_on_update	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/service_template/service_template.c:152:9:lorawan_template_service_downlink_handler	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_services/service_template/service_template.c:156:6:lorawan_template_add_task	2

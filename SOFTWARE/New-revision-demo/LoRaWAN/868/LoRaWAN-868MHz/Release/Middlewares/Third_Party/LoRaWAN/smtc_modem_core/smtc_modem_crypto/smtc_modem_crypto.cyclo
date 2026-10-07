@@ -1,0 +1,12 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:192:33:smtc_modem_crypto_payload_encrypt	6
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:244:33:smtc_modem_crypto_payload_decrypt	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:253:33:smtc_modem_crypto_compute_join_mic	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:266:33:smtc_modem_crypto_process_join_accept	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:282:33:smtc_modem_crypto_derive_skeys	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:303:33:smtc_modem_crypto_verify_mic	4
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:342:33:smtc_modem_crypto_compute_and_add_mic	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:354:33:smtc_modem_crypto_set_key	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:378:33:smtc_modem_crypto_derive_multicast_session_keys	7
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:433:33:smtc_modem_crypto_derive_relay_session_keys	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:442:33:smtc_modem_crypto_get_class_b_rand	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/smtc_modem_crypto.c:473:33:smtc_modem_crypto_service_encrypt	7

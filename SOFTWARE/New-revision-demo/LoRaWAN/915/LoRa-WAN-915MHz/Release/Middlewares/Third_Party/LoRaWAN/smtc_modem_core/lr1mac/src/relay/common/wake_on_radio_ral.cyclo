@@ -1,0 +1,11 @@
+../Middlewares/Third_Party/SubGHz_Phy/lorawan/smtc_ral/src/ral_defs.h:451:23:ral_compute_lora_ldro	6
+../Middlewares/Third_Party/SubGHz_Phy/lorawan/smtc_ral/src/ral.h:427:28:ral_set_dio_irq_params	1
+../Middlewares/Third_Party/SubGHz_Phy/lorawan/smtc_ralf/src/ralf.h:102:28:ralf_setup_lora	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:153:6:wor_ral_init_tx_wor	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:193:6:wor_ral_init_rx_wor	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:231:6:wor_ral_init_cad	11
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:306:6:wor_ral_init_rx_msg	3
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:370:6:wor_ral_init_tx_ack	2
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:449:6:wor_ral_callback_start_cad	5
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:476:6:wor_ral_callback_start_tx	6
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/lr1mac/src/relay/common/wake_on_radio_ral.c:498:6:wor_ral_callback_start_rx	8

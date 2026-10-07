@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/soft_secure_element/cmac.c:67:6:AES_CMAC_Init	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/soft_secure_element/cmac.c:74:6:AES_CMAC_SetKey	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/soft_secure_element/cmac.c:79:6:AES_CMAC_Update	7
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/smtc_modem_crypto/soft_secure_element/cmac.c:117:6:AES_CMAC_Final	12

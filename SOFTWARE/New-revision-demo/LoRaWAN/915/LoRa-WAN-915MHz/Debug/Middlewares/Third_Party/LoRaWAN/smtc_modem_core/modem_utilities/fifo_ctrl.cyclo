@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:91:6:fifo_ctrl_init	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:98:6:fifo_ctrl_clear	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:109:6:fifo_ctrl_print_stat	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:122:10:fifo_ctrl_get_nb_elt	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:127:10:fifo_ctrl_get_free_space	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:132:22:fifo_ctrl_get	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:142:22:fifo_ctrl_set	1
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:149:29:ctrl_set	7
+../Middlewares/Third_Party/LoRaWAN/smtc_modem_core/modem_utilities/fifo_ctrl.c:221:29:ctrl_get	14
