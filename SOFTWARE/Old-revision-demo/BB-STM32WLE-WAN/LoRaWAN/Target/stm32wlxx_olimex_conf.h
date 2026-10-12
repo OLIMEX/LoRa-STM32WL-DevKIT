@@ -69,11 +69,6 @@ extern "C" {
 #define BSP_BUTTON_SWx_IT_PRIORITY         15U
 
 /**
-  * Radio maximum wakeup time (in ms)
-  */
-#define RF_WAKEUP_TIME                     10U
-
-/**
   * Indicates whether or not TCXO is supported by the board
   * 0: TCXO not supported
   * 1: TCXO supported

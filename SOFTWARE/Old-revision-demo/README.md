@@ -166,8 +166,9 @@ openocd -f interface/cmsis-dap.cfg \
   -c "program Release/BB-STM32WLE-WAN.elf verify reset exit"
 ```
 
-The `flashit` file contains the original abbreviated example. The command above
-adds the Release path, verification, reset, and clean OpenOCD exit.
+The `flashit` file contains the equivalent one-line command. Run it from the
+`Old-revision-demo` directory; it uses the Release ELF path and requests
+verification, reset, and a clean OpenOCD exit.
 
 OpenOCD works on Linux, Windows, and macOS. On Windows, place `openocd` on
 `PATH` and enter the command on one line or adapt the line continuations for

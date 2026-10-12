@@ -35,11 +35,10 @@ extern "C" {
 #include "radio_board_if.h"  /* low layer api (bsp) */
 #include "utilities_def.h"  /* low layer api (bsp) */
 /* USER CODE BEGIN include */
-
+#include "subghz.h"
 /* USER CODE END include */
 
 /* Exported types ------------------------------------------------------------*/
-extern SUBGHZ_HandleTypeDef hsubghz;
 /* USER CODE BEGIN ET */
 
 /* USER CODE END ET */
